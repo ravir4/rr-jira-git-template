@@ -14,7 +14,7 @@ required:
 
 
 # Github repos
-github-repo:
+github-repo-1:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
@@ -27,7 +27,7 @@ github-repo:
 #  hidden: [form, description]
 
 # Github repos
-github-repo:
+github-repo-2:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
