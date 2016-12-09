@@ -8,9 +8,9 @@ required:
  - insights
 
 #DevOps Insights
-insights:
-  service_id: draservicebroker
-  include: insights.yml
+#insights:
+#  service_id: draservicebroker
+#  include: insights.yml
 
 
 # Github repos
@@ -22,6 +22,19 @@ github-repo:
 #    type: new | clone | link | fork
     repo_name: "{{name}}"
     repo_url: "https://github.com/apache/kafka.git"
+    type: link
+    has_issues: true
+#  hidden: [form, description]
+
+# Github repos
+github-repo:
+  service_id: githubpublic
+  parameters:
+#    repo_name: "{{github.parameters.open-source-repo_name}}"
+#    repo_url: "{{github.parameters.open-source-repo_URL}}"
+#    type: new | clone | link | fork
+    repo_name: "{{name}}"
+    repo_url: "https://github.com/apache/kafka-site.git"
     type: link
     has_issues: true
 #  hidden: [form, description]
