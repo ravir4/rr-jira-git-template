@@ -26,25 +26,9 @@ github-repo-kafka:
     has_issues: true
 #  hidden: [form, description]
 
-# Github repos
-#github-repo-kafka-site:
-#  service_id: githubpublic
-#  parameters:
-#    repo_name: "{{github.parameters.open-source-repo_name}}"
-#    repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: new | clone | link | fork
-#   repo_name: "kafka-site"
-#    repo_url: "https://github.com/apache/kafka-site.git"
-#    type: link
-#    has_issues: true
-#  hidden: [form, description]
-
 github-repo-kafka-site:
   service_id: githubpublic
   parameters:
-#    repo_name: "{{github.parameters.open-source-repo_name}}"
-#    repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: new | clone | link | fork
     repo_name: "kafka-site"
     repo_url: "https://github.com/apache/kafka-site.git"
     type: link
