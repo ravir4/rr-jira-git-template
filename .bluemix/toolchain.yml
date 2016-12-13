@@ -14,7 +14,7 @@ required:
 
 
 # Github repos
-github-repo-1:
+github-repo-kafka:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
@@ -27,7 +27,7 @@ github-repo-1:
 #  hidden: [form, description]
 
 # Github repos
-#github-repo-2:
+#github-repo-kafka-site:
 #  service_id: githubpublic
 #  parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
@@ -39,7 +39,7 @@ github-repo-1:
 #    has_issues: true
 #  hidden: [form, description]
 
-github-repo-2:
+github-repo-kafka-site:
   service_id: githubpublic
   parameters:
     repo_name: "kafka-site"
