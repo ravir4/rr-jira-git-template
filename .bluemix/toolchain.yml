@@ -8,9 +8,9 @@ required:
  - insights
 
 #DevOps Insights
-#insights:
-#  service_id: draservicebroker
-#  include: insights.yml
+insights:
+  service_id: draservicebroker
+  include: insights.yml
 
 
 # Github repos
@@ -100,8 +100,8 @@ ccm:
 #  service_id: apm
   
 #Web IDE
-#webide:
-#  service_id: orion
+webide:
+  service_id: orion
   
 #Deployment
 #deploy:
